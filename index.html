@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="http://bootswatch.com/lumen/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="moment.js"></script>
+    <script src="tickets.js"></script>
+    <title></title>
+    <style>
+    /* Found @ http://stackoverflow.com/questions/10099422/flushing-footer-to-bottom-of-the-page-twitter-bootstrap */
+    html, body {
+      height: 100%;
+    }
+
+    #wrap {
+      min-height: 100%;
+    }
+
+    #main {
+      overflow:auto;
+      padding-bottom:150px; /* this needs to be bigger than footer height*/
+    }
+
+    .footer {
+      position: relative;
+      margin-top: -150px; /* negative value of footer height */
+      height: 150px;
+      clear:both;
+      padding-top:20px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <div id="main" class="container clear-top">
+        <center>
+          <h1><release></release></h1>
+          <script>
+          //lol
+          for(var i = 0; i < 5; i ++) {
+            document.write("<br />");
+          }
+          </script>
+          <h2>The trailer yo</h2>
+          <iframe width="560" height="315" src="http://www.youtube.com/embed/erLk59H86ww?autoplay=1" frameborder="0" allowfullscreen></iframe>
+        </center>
+      </div>
+    </div>
+  <center><footer class="footer">Not affiliated with LucasFilms Ltd or The Walt Disney Company.</footer></center>
+
+  </body>
+
+</html>
